@@ -1,0 +1,19 @@
+@import "lib/colors";
+
+.footer-section{
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 1088px) 1fr;
+
+    padding: 60px 0 100px 0;
+
+    .content{
+        grid-column: 2/3;
+        height: 400px;
+
+        display: flex;
+        flex-direction: row;
+        // background-image: url('../assets/images/footer/data-sphere.jpeg');
+        // background-repeat: no-repeat;
+        // background-position: center center;
+    }
+}
