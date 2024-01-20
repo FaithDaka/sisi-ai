@@ -3,15 +3,6 @@ import React from "react";
 const HeaderComponent = () => {
   return (
     <div className="sisi-header">
-      <div className="top-bar">
-        <div className="logo">SISI AI</div>
-        <nav className="nav">
-          <div>Home</div>
-          <div>About</div>
-          <div>Product</div>
-          <div>Contact</div>
-        </nav>
-      </div>
       <div className="hero-section">
         <div className="content">
           <div className="title-text">SISI AI</div>
