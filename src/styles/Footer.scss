@@ -1,19 +1,39 @@
 @import "lib/colors";
 
-.footer-section{
-    display: grid;
-    grid-template-columns: 1fr minmax(0, 1088px) 1fr;
+.footer-section {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1088px) 1fr;
 
-    padding: 60px 0 100px 0;
+  padding: 100px 0 60px 0;
+  .content {
+    grid-column: 2/3;
 
-    .content{
-        grid-column: 2/3;
-        height: 400px;
-
-        display: flex;
-        flex-direction: row;
-        // background-image: url('../assets/images/footer/data-sphere.jpeg');
-        // background-repeat: no-repeat;
-        // background-position: center center;
+    display: flex;
+    flex-direction: row;
+  }
+  .left-section {
+    width: 30%;
+    .logo {
+      img {
+        margin-left: -20px;
+        margin-top: 20px;
+      }
     }
+    .tagline {
+      text-transform: uppercase;
+      font-size: 16px;
+      color: $sisi-grey-1;
+      font-weight: 400;
+      width: 50%;
+      margin-top: 90px;
+    }
+    .copyright div {
+      margin-top: 170px;
+      color: $sisi-grey-1;
+      font-size: 15px;
+    }
+  }
+  .middle-section {
+    width: 50%;
+  }
 }
