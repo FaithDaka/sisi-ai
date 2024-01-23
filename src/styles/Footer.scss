@@ -37,3 +37,17 @@
     width: 50%;
   }
 }
+
+@media (max-width: 800px) {
+    .footer-section{
+        .left-section{
+            width: 35%;
+        }
+        .right-section{
+            display: none;
+        }
+        .middle-section{
+            width: 60%;
+        }
+    }
+}
