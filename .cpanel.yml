@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/sisiekig/public_html/
-    - /bin/cp -R sisi-ai-website $DEPLOYPATH
+    - /bin/cp -R $DEPLOYPATH
 

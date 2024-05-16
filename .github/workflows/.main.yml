@@ -27,7 +27,6 @@ jobs:
       with:
           node-version: "16"
     - run: |
-        cd sisi-ai-website/
         npm install
         CI=false npm run build
 
